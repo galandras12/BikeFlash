@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "BikeFlash",
+    "slug": "bikeflash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0b0b0d",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "A BikeFlash a kamera vakuját (zseblámpa) használja a villogó fényhez.",
+          "recordAudioAndroid": false
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.galandras12.bikeflash",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0b0d",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": ["CAMERA"],
+      "predictiveBackGestureEnabled": false
+    }
+  }
+}

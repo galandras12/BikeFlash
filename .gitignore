@@ -33,3 +33,10 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Expo / Node
+node_modules/
+.expo/
+dist/
+/android/
+/ios/
